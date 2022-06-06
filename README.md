@@ -18,7 +18,7 @@ go run main.go getbalance -address "Johnvijay2"
 go run main.go send -from "Johnyvijay" -to "johnvijay2" -ampunt 50 -->
 
 # for create wallet 
-got run main.go createwallet
+go run main.go createwallet
 
 # create blockchain for that wallet
 go run main.go createblockchain -address walletId
@@ -38,5 +38,5 @@ go run main.go startnode
 go run main.go startnode -miner address
 
 # for create transaction
-go run main.go send -from "Johnyvijay" -to "johnvijay2" -ampunt 50
+go run main.go send -from "Johnyvijay" -to "johnvijay2" -amount 50
 
